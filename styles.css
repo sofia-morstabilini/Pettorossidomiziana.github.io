@@ -1,0 +1,36 @@
+ul#menu {
+    font-size: 15px;
+    margin: 2;
+    padding: 5;
+}
+ul#menu li {
+    background-color: transparent;
+    border-bottom: none;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    float: left;
+}
+ul#menu li a {
+    color: green;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    height: 30px;
+    text-align: center;
+}
+  ul#menu li:hover {
+    background-color: blue;
+    border-bottom:7px yellow;
+}
+
+ul#menu li.active {
+    background-color: transparent;
+    border-bottom: 5px solid orange;
+}
+ ul#menu li:hover {
+    background-color: red;
+    border-bottom: 5px solid yellow;
+}
